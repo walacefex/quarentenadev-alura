@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <script>   
+        //Usando alert com o Prompt
+     alert(prompt("olá qual é o seu nome? "));
+        //O IMC é calculado dividindo o peso pela altura elevada ao quadrado. Será que você consegue descobrir qual o seu IMC?
+        altura = prompt('Digite a sua altura: ');
+        peso = prompt('Digite o seu peso:' );
+        // altura= 1.80;// no lugar de colocar a virgula coloque ponto
+        // peso = 80;
+        document.writeln('O seu IMC é ' + (peso / (altura * altura) ))
+
+        //Atividade 2
+        //Guilherme tem 30 anos e tem 3 irmãs, a Carol que tem 20 anos, Márcia que tem 15, Patrícia que tem 10 anos. Qual a média de idade da família do Guilherme?
+        guilherme = 30;
+        carol = 20;
+        marcia = 15;
+        patricia = 10;
+        document.writeln('</br> A media da idade da familia de guilherme é ', (guilherme+carol+marcia+patricia)/4)
+        
+        /*Atividade 3*/
+        //Quantos anos tem a avó da amiga da Maria que nasceu em 1940?
+        ano = 2020;
+        document.write('</br> A idade da avó da amiga da Maria é de ', ano - 1940);
+
+    </script>
+
+</body>
+</html>
